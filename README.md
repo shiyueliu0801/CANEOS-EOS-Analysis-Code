@@ -59,7 +59,6 @@ Use `--modules "01,03"` to run a subset, or invoke any module directly via `R/<m
 
 - See [docs/OUTPUT_MAP.md](docs/OUTPUT_MAP.md) for the complete table/figure-to-script mapping.
 - Runtime outputs contain study derivatives and must always remain outside any public archive.
-- Geographic stratification and macro-region × year live-birth calibration align pooled estimates across the 30 participating tertiary hospitals and do not establish a national probability sample or eliminate hospital-selection bias. In vitro coverage estimates do not equate to clinical efficacy. See [docs/ANALYSIS_METHODS.md](docs/ANALYSIS_METHODS.md) and [docs/THIRD_PARTY_NOTICES.md](docs/THIRD_PARTY_NOTICES.md) for methodological details and third-party attributions.
 
 ---
 
