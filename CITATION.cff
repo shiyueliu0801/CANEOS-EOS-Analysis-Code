@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "CANEOS Statistical Analysis and Figure Generation Code"
+message: "If you use this code, please cite the accompanying PLOS Medicine manuscript and this software release."
+type: software
+version: "1.0.0"
+license: MIT
+authors:
+  - name: "CANEOS Study Group"
+  - family-names: "Liu"
+    given-names: "Shiyue"
+  - family-names: "He"
+    given-names: "Yu"
+  - family-names: "Lei"
+    given-names: "Ruobin"
+  - family-names: "Chen"
+    given-names: "Yaolong"
+  - family-names: "Shi"
+    given-names: "Yuan"
+abstract: >-
+  Reproducible R analysis, site-selection ordering, and figure generation code
+  for the China Antimicrobial Resistance and Neonatal Early-Onset Sepsis
+  (CANEOS) multicenter cohort study (2015-2024). Contains statistical code,
+  static methodological rule configurations, published aggregate calibration
+  weights (S2 Table), and bilingual schema documentation; restricted
+  patient-level and hospital-level data are excluded and available through
+  institutional ethics approval.
+keywords:
+  - neonatal early-onset sepsis
+  - antimicrobial resistance
+  - empirical antibiotic coverage
+  - complex survey design
+  - reproducible research
+  - PLOS Medicine

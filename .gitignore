@@ -1,0 +1,48 @@
+# ==============================================================================
+# Strict Data, Privacy, and Output Exclusion Rules
+# ==============================================================================
+# Local private path configs (NEVER commit)
+config/paths.local.R
+*.local.R
+
+# Private data directories & runtime outputs
+data/
+data_private/
+outputs/
+results/
+Internal_Validation/
+
+# Prevent accidental staging of raw data, spreadsheets, manuscripts, or figures
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.rds
+*.rda
+*.RData
+*.docx
+*.doc
+*.pptx
+*.tif
+*.tiff
+*.png
+*.pdf
+*.gpkg
+*.shp
+*.dbf
+*.zip
+*.log
+
+# R / OS / IDE artifacts
+.Rhistory
+.Rapp.history
+.Rproj.user/
+.Renviron
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/staging/
+.DS_Store
+Thumbs.db
