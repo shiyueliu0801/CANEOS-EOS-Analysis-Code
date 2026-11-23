@@ -4,7 +4,7 @@
 
 Reproducible R analysis, site-selection ordering, and figure generation code for the **China Antimicrobial Resistance and Neonatal Early-Onset Sepsis (CANEOS)** multicenter cohort study (2015–2024), prepared for submission to *PLOS Medicine*.
 
-> **Data Privacy Notice**: This repository contains pure-R statistical code, methodological rule configurations, the 40 published macro-region × year aggregate calibration cells matching `S2 Table`, and documentation only. No patient-level records, real hospital names, hospital-level denominators, controlled scope sidecars, local path configurations, or computed study outputs are included. Original Chinese column headers and categorical values in the source data are preserved verbatim.
+> **Data Privacy Notice**: This repository contains pure-R statistical code, methodological rule configurations, the 40 published macro-region × year aggregate calibration cells matching `S2 Table`, and documentation only. No patient-level records, real hospital names, or hospital-level denominators are included.
 
 ---
 
@@ -26,7 +26,7 @@ Reproducible R analysis, site-selection ordering, and figure generation code for
 
 ## Setup and Execution
 
-Use **R 4.4.1** and restore exact package versions with `renv::restore()` (using `renv.lock`), or install core CRAN packages via `Rscript --vanilla install_packages.R`. (`officer` and `rvg` are optional and only needed if exporting an editable DrawingML vector PPTX for Figure 2.)
+Use **R 4.4.1** and restore exact package versions with `renv::restore()` (using `renv.lock`), or install core CRAN packages via `Rscript --vanilla install_packages.R`.
 
 ### 1. Public Software Check & Standalone Site-Selection Run (No Restricted Data Required)
 
@@ -58,8 +58,6 @@ Use `--modules "01,03"` to run a subset, or invoke any module directly via `R/<m
 ## Outputs, Privacy & Interpretation
 
 - See [docs/OUTPUT_MAP.md](docs/OUTPUT_MAP.md) for the complete table/figure-to-script mapping.
-- `export_internal_audit = FALSE` is the default so Module 03 outputs only formal summary tables, formatted `S2_Heatmap.xlsx`, and `S3` TIFF panels without generating isolate-level diagnostic Excel workbooks.
-- `export_pptx = FALSE` is the default for Figure 2 (which always outputs 300-dpi TIFF and vector PDF); set `export_pptx = TRUE` in your local config to additionally export a native vector DrawingML PPTX via `officer` + `rvg`.
 - Runtime outputs contain study derivatives and must always remain outside any public archive.
 - Geographic stratification and macro-region × year live-birth calibration align pooled estimates across the 30 participating tertiary hospitals and do not establish a national probability sample or eliminate hospital-selection bias. In vitro coverage estimates do not equate to clinical efficacy. See [docs/ANALYSIS_METHODS.md](docs/ANALYSIS_METHODS.md) and [docs/THIRD_PARTY_NOTICES.md](docs/THIRD_PARTY_NOTICES.md) for methodological details and third-party attributions.
 
