@@ -18,7 +18,7 @@ authors:
     given-names: "Yuan"
 abstract: >-
   Reproducible R analysis, site-selection ordering, and figure generation code
-  for the China Antimicrobial Resistance and Neonatal Early-Onset Sepsis
+  for the China Antibiotics in Neonates with Early-Onset Sepsis
   (CANEOS) multicenter cohort study (2015-2024). Contains statistical code,
   static methodological rule configurations, published aggregate calibration
   weights (S2 Table), and bilingual schema documentation; restricted

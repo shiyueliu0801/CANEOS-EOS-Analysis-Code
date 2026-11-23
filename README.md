@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Reproducible R analysis, site-selection ordering, and figure generation code for the **China Antimicrobial Resistance and Neonatal Early-Onset Sepsis (CANEOS)** multicenter cohort study (2015–2024), prepared for submission to *PLOS Medicine*.
+Reproducible R analysis, site-selection ordering, and figure generation code for the **China Antibiotics in Neonates with Early-Onset Sepsis (CANEOS)** multicenter cohort study (2015–2024), prepared for submission to *PLOS Medicine*.
 
 > **Data Privacy Notice**: This repository contains pure-R statistical code, methodological rule configurations, the 40 published macro-region × year aggregate calibration cells matching `S2 Table`, and documentation only. No patient-level records, real hospital names, or hospital-level denominators are included.
 
